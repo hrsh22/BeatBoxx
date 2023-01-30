@@ -21,15 +21,14 @@ const Index = () => {
   }, []);
 
   return (
-    <>
+    <div className="bg-[#1f1f1f]">
       {visible?(
       <Alert className="absolute z-50 top-20 right-10 flex justify-center" message="Metamask Not Installed" type="error" showIcon closable />):(
       <Alert className="absolute z-50 top-20 right-10 flex justify-center" message="Metamask Installed" type="success" showIcon closable />)
     }
      <HomeLayout />
-  return (
    
-    </>
+    </div>
   );
 }
 
