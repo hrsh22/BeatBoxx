@@ -26,7 +26,6 @@ const Index = () => {
       <Alert className="absolute z-50 top-20 right-10 flex justify-center" message="Metamask Installed" type="success" showIcon closable />)
     }
      <HomeLayout />
-  return (
    
     </>
   );
