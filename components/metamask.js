@@ -47,7 +47,7 @@ const MetaMask = () => {
             return console.log('MetaMask is installed!');
         }
         else{
-            alert(failMessage);
+            console.log(failMessage);
         }
         
         
