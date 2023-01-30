@@ -1,10 +1,10 @@
 import React from 'react';
-import Index from '../components/upload';
+import UploadLayout from '../components/upload';
 
 const Upload = () => {
   return (
     <div>
-      <Index/>
+      <UploadLayout/>
     </div>
   );
 }

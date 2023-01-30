@@ -1,19 +1,18 @@
-import React from 'react';
-import Sidebar from '../sidebar';
-import Header from '../header';
-import UploadPage from './uploadpage';
+import React from "react";
+import Sidebar from "../sidebar";
+import Header from "../header";
+import UploadPage from "./uploadpage";
 
-const Index = () => {
+const UploadLayout = () => {
   return (
     <div>
-        <Sidebar className="relative"/>
-        <Header classname="z-10"/>
-        <main class="bg-[#1f1f1f] flex-1 p-6 lg:px-8">
-    <UploadPage/>
-
-    </main>
+      <Sidebar className="relative" />
+      <Header classname="z-10" />
+      <main class="bg-[#1f1f1f] flex-1 p-6 lg:px-8">
+        <UploadPage />
+      </main>
     </div>
   );
-}
+};
 
-export default Index;
+export default UploadLayout;
