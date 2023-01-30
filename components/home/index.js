@@ -3,7 +3,7 @@ import Sidebar from '../sidebar';
 import Header from '../header';
 import Homepage from './homepage';
 
-const Index = () => {
+const HomeLayout = () => {
   return (
     <div>
         <Sidebar className="relative"/>
@@ -16,4 +16,4 @@ const Index = () => {
   );
 }
 
-export default Index;
+export default HomeLayout;
