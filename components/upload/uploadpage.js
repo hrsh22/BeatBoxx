@@ -45,10 +45,10 @@ const UploadPage = () => {
   return (
     <div className="ml-64 mt-24">
       <Button type="primary" onClick={showModal}>
-        Upload File
+        Upload Music
       </Button>
       <Modal
-        title="Title"
+        title="Upload File"
         open={open}
         onOk={handleOk}
         confirmLoading={confirmLoading}
@@ -62,7 +62,7 @@ const UploadPage = () => {
             style={{ maxWidth: 600 }}
           >
            
-           <Form.Item label="Upload" valuePropName="fileList">
+           <Form.Item align="center" valuePropName="fileList">
               <Upload action="/upload.do" listType="picture-card" >
                 <div>
                   <PlusOutlined />
@@ -71,21 +71,21 @@ const UploadPage = () => {
               </Upload>
             </Form.Item>
 
-            <Form.Item label="Radio">
+            {/* <Form.Item label="Radio">
               <Radio.Group>
                 <Radio value="apple"> Apple </Radio>
                 <Radio value="pear"> Pear </Radio>
               </Radio.Group>
-            </Form.Item>
-            <Form.Item label="Input">
+            </Form.Item> */}
+            <Form.Item label="Token ID:">
               <Input />
             </Form.Item>
-            <Form.Item label="Select">
+            {/* <Form.Item label="Select">
               <Select>
                 <Select.Option value="demo">Demo</Select.Option>
               </Select>
-            </Form.Item>
-            <Form.Item label="TreeSelect">
+            </Form.Item> */}
+            {/* <Form.Item label="TreeSelect">
               <TreeSelect
                 treeData={[
                   {
@@ -130,7 +130,7 @@ const UploadPage = () => {
            
             <Form.Item label="Button">
               <Button>Button</Button>
-            </Form.Item>
+            </Form.Item> */}
           </Form>
         </p>
       </Modal>
