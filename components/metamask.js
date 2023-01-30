@@ -8,8 +8,8 @@ const MetaMask = () => {
   const [connect, setConnect] = useState(false);
   const [balance, setBalance] = useState("");
 
-  const failMessage = "Please install MetaMask & connect your MetaMask"; 
-  const successMessage = "Your Account Successfully connected to MataMask";
+  const failMessage = "Please install MetaMask & connect your wallet"; 
+  const successMessage = "Your Account is successfully connected to MetaMask";
 
   const INFURA_ID = "1a81d80bb2f245c9a672425f7f411fe4";
   const provider = new ethers.providers.JsonRpcProvider( `https://mainnet.infura.io/v3/${INFURA_ID}`
@@ -44,7 +44,7 @@ const MetaMask = () => {
             });
             setCurrentAccount (accounts[0]);
             // window.location.reload();    
-            return console.log('MetaMask is installed!');
+            return console.log('MetaMask Connected!');
         }
         else{
             console.log(failMessage);

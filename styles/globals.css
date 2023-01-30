@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  background-color: #1f1f1f;
+}
+
 #sidebar {
   --tw-translate-x: -100%;
 }
