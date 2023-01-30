@@ -23,7 +23,7 @@ const Header = () => {
         rel="stylesheet"
         href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
       />
-      <nav class="ml-64 navbar-width lg:flex hidden top-0 absolute z-50   items-center  px-2 py-3  bg-[#2c2c2c]">
+      <nav class="fixed ml-64 navbar-width lg:flex hidden top-0  z-50   items-center  px-2 py-3  bg-[#2c2c2c]">
         <header class="navbar-width header  top-0 navbar-expand-lg flex-wrap bg-[#2c2c2c] flex items-center justify-between px-8 py-02">
           <ul class="flex items-center ">
             <li class=" items-center">

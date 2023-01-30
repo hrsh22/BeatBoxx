@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './header';
+import Homepage from './home/homepage';
 
 const Sidebar = () => {
   return (
     <>
-    <div class="relative min-h-screen md:flex" data-dev-hint="container">
+    <div class=" fixed min-h-screen md:flex" data-dev-hint="container">
     <input type="checkbox" id="menu-open" class="hidden" />
 
     <label for="menu-open" class="absolute right-2 bottom-2 shadow-lg rounded-full p-2 bg-[#252526] text-gray-600 md:hidden" data-dev-hint="floating action button">
@@ -88,16 +88,7 @@ const Sidebar = () => {
         </nav>
     </aside>
 
-    <Header classname="z-10"/>
-
-    <main id="content" class="bg-[#1f1f1f] flex-1 p-6 lg:px-8">
-        <div class="max-w-7xl mx-auto bg-[#1f1f1f]">
-            <div class="px-4 py-6 sm:px-0 bg-[#1f1f1f]">
-                
-            </div>
-
-        </div>
-    </main>
+   
 </div>
     </>
   );
