@@ -6,6 +6,7 @@ import styles from "@/styles/Home.module.css";
 import HomeLayout from '@/components/home'
 import { Alert, Space, Button } from 'antd';
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 

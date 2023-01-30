@@ -1,18 +1,21 @@
 import React from "react";
 import Head from 'next/head'
-import { Button, Space } from 'antd';
+// import { Button, Space } from 'antd';
 
 const HomePage = () => {
   return (
 <section class="ml-64 pt-24 bg-[#1f1f1f]">
     <div class="px-12 mx-auto max-w-7xl">
         <div class="mx-auto text-center ">
-            <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-[#ededed] md:text-6xl md:tracking-tight">
+            {/* <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-[#ededed] md:text-6xl md:tracking-tight">
                 <span>Start</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 ">building a buzz</span> <span>around your product ?</span>
+            </h1> */}
+            <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-[#ededed] md:text-6xl md:tracking-tight">
+                <span></span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 ">BeatBoxx</span> <span></span>
             </h1>
             <p class="px-0 mb-8 text-lg text-[#ededed] md:text-xl lg:px-24">
-                Start gaining the traction you've always wanted with our next-level templates and designs. Crafted to help you tell your story.
-            </p>
+            Redefine Your Music Experience with a Decentralized and Unrestricted Music Player.
+                </p>
             <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
                 <a href="#_" class="inline-flex items-center justify-center px-6 py-3 mb-2 text-lg text-white bg-green-400 rounded-2xl sm:w-auto sm:mb-0">
                     Get Started
