@@ -41,35 +41,35 @@ const Sidebar = () => {
             <div class="p-4 w-64 bg-[#252526]">
       <div class="w-full py-4 px-2 text-white bg-bg-[#252526] rounded-lg text-left capitalize font-medium ">
        
-        <span class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+        <a href='/' class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <i class="w-8 fas fa-stream p-2 bg-gray-800 rounded-full">
           </i>
-          <span class="mx-2">categories</span>
-        </span>
-        <span class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+          <span class="mx-2">Overview</span>
+        </a>
+        <a href='/upload' class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <i class="w-8 fas fa-search p-2 bg-gray-800 rounded-full">
           </i>
-          <span class="mx-2">search</span>
-        </span>
-        <span class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+          <span class="mx-2">Upload</span>
+        </a>
+        <a href='/dashbord' class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <span class="w-8 mb-5 relative">
             <i class="w-8 fas fa-user p-2 bg-gray-800 rounded-full">
             </i>
             <span
               class="absolute right-0 top-0 -mt-2 -mr-1 text-xs bg-yellow-500 text-black font-medium px-2 rounded-full">3</span>
           </span>
-          <span class="mx-2">sign ups</span>
-        </span>
-        <span class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+          <span class="mx-2">Dashbord</span>
+        </a>
+        <a href='play' class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <i class="w-8 fas fa-th p-2 bg-gray-800 rounded-full">
           </i>
-          <span class="mx-2">menu</span>
-        </span>
-        <span class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+          <span class="mx-2">Listen Now</span>
+        </a>
+        <a href='/search' class="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <i class="w-8 fas fa-calendar-alt p-2 bg-gray-800 rounded-full">
           </i>
-          <span class="mx-2">calendar</span>
-        </span>
+          <span class="mx-2">Browse</span>
+        </a>
       </div>
     </div>
             </nav>
