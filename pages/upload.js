@@ -3,7 +3,7 @@ import UploadLayout from '../components/upload';
 
 const Upload = () => {
   return (
-    <div>
+    <div className='bg-[#1f1f1f]'>
       <UploadLayout/>
     </div>
   );
