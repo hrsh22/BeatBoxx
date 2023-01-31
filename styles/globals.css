@@ -11,6 +11,8 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 
+}
+
 html{
   background-color: #1f1f1f;
 }
