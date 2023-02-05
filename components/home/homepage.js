@@ -33,7 +33,8 @@ const HomePage = () => {
                             <div className="w-3 h-3 border-2 border-[#22c55e] bg-[#22c55e] rounded-full"></div>
                         </div>
                     </div>
-                    <img src="https://cdn.devdojo.com/images/march2021/green-dashboard.jpg"/>
+                    {/* <img src="https://cdn.devdojo.com/images/march2021/green-dashboard.jpg"/> */}
+                    <img src="dashboard.png" alt="" />
                 </div>
             </div>
         </div>

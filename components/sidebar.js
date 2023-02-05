@@ -63,7 +63,7 @@ const Sidebar = () => {
           </i>
           <span className="mx-2">Listen Now</span>
         </a>
-        <a href='/search' className="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
+        <a href='/browse' className="cursor-pointer px-2 py-1 hover:bg-gray-800 hover:text-gray-300 rounded block mb-5">
           <i className="w-8 fas fa-globe p-2 bg-gray-800 rounded-full">
           </i>
           <span className="mx-2">Browse</span>
