@@ -2,7 +2,7 @@ import { Button, Modal, Card } from "antd";
 import { useState } from "react";
 import Image from "next/image";
 
-const DashbordPage = () => {
+const DashbordPageh = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className="ml-64 mt-16 bg-[#1f1f1f] scrollbar-hide">
@@ -12,16 +12,17 @@ const DashbordPage = () => {
           <div class="flex flex-nowrap ">
             <div
               class="inline-block px-3 cursor-pointer"
-              // onClick={() => setOpen(true)}
+              onClick={() => setOpen(true)}
             >
               <div class="w-64 h-80 max-w-xs overflow-hidden rounded-lg shadow-md bg-white  hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <h1 className="mt-5 text-center font-bold">Empty</h1>
                 <img
-                  className="p-2 w-64 "
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFrR71jsm_CfMXGuHaL0MLe-BVpI70cOtZVg&usqp=CAU"
+                  className="p-2"
+                  src="https://pub-static.fotor.com/assets/projects/pages/c7d9749a29fc44a5a54da2bba21165af/gradient-cool-new-bullet-e52b9cac8825471981dc12dd343176da.jpg"
                   alt=""
                 />
-               <Button type="primary" className="justify-center flex mx-6 -mt-8" href="/upload">Upload Your First</Button>
+                <i className="fas fa-play p-3 ml-4 -mt-8 absolute rounded-full bg-red-700"></i>
+                <h1 className="mt-0 text-center font-bold">New Bullet</h1>
+                <h3 className="text-center">Jazz Artists</h3>
               </div>
             </div>
             <Modal
@@ -44,7 +45,7 @@ const DashbordPage = () => {
                 },
               }}
             >
-              <Card className="m-6">
+            <Card className="m-6">
                 <div className="flex items-center">
                   <div className="flex">
                     <img
@@ -158,4 +159,4 @@ const DashbordPage = () => {
   );
 };
 
-export default DashbordPage;
+export default DashbordPageh;

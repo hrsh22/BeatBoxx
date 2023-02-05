@@ -43,7 +43,7 @@ const RegisterPage = () => {
     }, 6000);
   };
   return (
-    <div className="ml-[26rem] mr-[10rem] mt-24 bg-white  rounded-2xl  p-10 shadow-lg shadow-white">
+    <div className="ml-[26rem] mr-[10rem] mt-24 bg-white  rounded-2xl  p-10 shadow-lg shadow-white scrollbar-hide">
       <Form 
       layout="vertical"
         labelCol={{ span: 4 }}

@@ -2,6 +2,7 @@ import { InboxOutlined ,UploadOutlined } from "@ant-design/icons";
 import { message, Upload, Form, Input, DatePicker,Button } from "antd";
 const { Dragger } = Upload;
 import { useState } from 'react';
+import { useRouter } from 'next/router'
 const { RangePicker } = DatePicker;
 const { TextArea } = Input;
 
@@ -27,6 +28,7 @@ const props = {
 };
 
 const UploadPage = () => {
+  let router= useRouter()
   const [loadings, setLoadings] = useState([]);
   const enterLoading = (index) => {
     setLoadings((prevLoadings) => {
@@ -35,15 +37,16 @@ const UploadPage = () => {
       return newLoadings;
     });
     setTimeout(() => {
+      router.push('/v1/dashboard')
       setLoadings((prevLoadings) => {
         const newLoadings = [...prevLoadings];
         newLoadings[index] = false;
         return newLoadings;
       });
-    }, 6000);
+    }, 3000);
   };
   return (
-    <div className="ml-[26rem] mr-[10rem] mt-24 bg-white  rounded-2xl  p-10 shadow-lg shadow-white">
+    <div className="ml-[26rem] mr-[10rem] mt-24 bg-white  rounded-2xl  p-10 shadow-lg shadow-white scrollbar-hide">
       <Form 
       layout="vertical"
         labelCol={{ span: 4 }}

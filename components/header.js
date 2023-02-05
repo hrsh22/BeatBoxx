@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Drawer } from 'antd';
 import MetaMask from './metamask';
+import Head from 'next/head';
 
 const Header = () => {
 
@@ -16,6 +17,9 @@ const Header = () => {
 
   return (
     <>
+    <Head>
+      <title>BeatBoxx</title>
+    </Head>
       <link
         rel="stylesheet"
         href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
